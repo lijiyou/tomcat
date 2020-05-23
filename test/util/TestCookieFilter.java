@@ -85,9 +85,4 @@ public class TestCookieFilter {
         Assert.assertEquals(cookie, CookieFilter.filter(cookie, id));
     }
 
-    @Test
-    public void test10() {
-        // Single cookie
-        Assert.assertEquals("a=\"xx;x\"", CookieFilter.filter("a=\"xx;x\"", null));
-    }
 }
